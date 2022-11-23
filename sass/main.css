@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #8e40bb;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.navbar .nav-link {
+  color: #FFD3EC;
+}
+
+.body {
+  background-color: #ffebf6;
+}
+.body .datosextras {
+  background-color: #dda3ff;
+}
+.body .footer {
+  background-color: #dda3ff;
+}
+.body .prods div img {
+  box-shadow: 0 0 15px 7px white;
+}
+.body .historia img {
+  box-shadow: 0 0 15px 7px white;
+}/*# sourceMappingURL=main.css.map */
