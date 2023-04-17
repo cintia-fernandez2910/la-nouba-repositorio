@@ -1,21 +1,22 @@
-function saludar (){
-    console.log ('bienvenido');
-    alert ("Bienvenido a la nouba");;
+var nombre = prompt ("Escriba su nombre");
+
+alert ("Bienvenido a la Nouba " + nombre);
+
+var agregar = prompt ("Agregue sus productos aqui")
+var continuar = true;
+while (continuar) {
+  var respuesta = prompt("¿Quieres continuar? Marque no solo cuando haya terminado)");
+  if (respuesta.toLowerCase() === "no") {
+    continuar = false;
+  }
 }
-saludar();
+alert ("su lista ya esta cargada en el carrito")
+var objetos = prompt ("Cuantos objetos agrego al carrito")
 
-const agregar = function() {
-    prompt ("Agregue su producto aqui");
-    alert ("Bien su producto ya esta guardado")
+if (objetos >= 6 ) {
+    alert("accede al precio mayorista");
 }
-agregar();
 
-const email = (email) => prompt ("Escriba su mail para recibir novedades");
-
-email("email");
-
-let numero = parseInt (prompt("Ingrese un numero"));
-for (let i = 0; i <= 10; i++) {
-    let resultado = numero * i;
-    alert(numero + "x"+ i + " = " + resultado);
+else if (objetos <= 5 && objetos > 4) {
+    alert("te regalamos el envio a domicilio");
 }
